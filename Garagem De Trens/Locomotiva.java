@@ -36,20 +36,14 @@ public void setPeso(int peso) {
 
 
 public int getNummaxdevagoes() {
-    // Verifica se nummaxdevagoes é menor que 50
+   
     if (nummaxdevagoes < 50) {
-        // Se for menor que 50, retorna o valor de nummaxdevagoes sem alterações
         return nummaxdevagoes;
-    } else { // Se nummaxdevagoes não for menor que 50
-        // Verifica se nummaxdevagoes é maior que 50
+    } else {
         if (nummaxdevagoes > 50) {
-            // Se for maior que 50, reduz nummaxdevagoes em 10%
-            // Note que a redução é realizada através de uma expressão aritmética
-            // 10 * nummaxdevagoes / 100 é a representação de 10%
             return nummaxdevagoes - (10 * nummaxdevagoes / 100);  
         }
     }
-    // Retorna nummaxdevagoes se não for menor que 50 nem maior que 50
     return nummaxdevagoes;
 }
 
@@ -76,3 +70,4 @@ public String toString() {
 }
 
 }
+
