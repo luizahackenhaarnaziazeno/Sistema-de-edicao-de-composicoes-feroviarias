@@ -51,17 +51,20 @@ Exibição dos resultados
 5) Fim
 - Encerra o programa.
 
-# 🛠️ Rodando o projeto
+<div align="center">
+
+## 🛠️ Rodando o projeto
 **Como Usar:**
 Execute o programa em um ambiente Java.
 Forneça as informações solicitadas: número de apartamentos e o valor da diária normal.
 
 
 ## Linguagem Utilizada:
+
 <div style="display: inline_block"><br>
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> 
 
-# Autora:
+## Autora:
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/142232479?v=4" width=115><br><sub>Luiza Hackenhaar Naziazeno</sub>](https://github.com/luizahackenhaarnaziazeno)|
 | :---: |
