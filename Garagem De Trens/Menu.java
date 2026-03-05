@@ -15,12 +15,11 @@ public class Menu {
        int idvagao;
        int idlocomotiva;
 
-       // Criando um objeto Trem
+       
        Trem t= new Trem(1,1,garagemlocomotiva,garagemvagoes);
 
-       // Exibindo o ID do trem criado
        System.out.println("ID do Trem criado: " + t.getIdTrem());
-       // Criando uma instância de GaragemTrem
+       
        GaragemTrem garagemtrem = new GaragemTrem(trem, 1); 
        GaragemVagoes garagemvagao = new GaragemVagoes(vagoes, 1);
        GaragemLocomotiva gl=new GaragemLocomotiva(locomotivas, 1);
@@ -37,7 +36,7 @@ public class Menu {
            switch (opcao) {
                  case 1:
                  System.out.println("Você escolheu a opção 1");
-                 // Criar um trem e adicionar à lista de trens
+                
                 System.out.println("Digite o id para criação da locomotiva:");
                 idlocomotiva= sc.nextInt();
                 idvagao=0;
@@ -105,4 +104,5 @@ public class Menu {
 
 }
 }
+
 
