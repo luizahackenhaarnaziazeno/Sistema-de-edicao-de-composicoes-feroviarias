@@ -4,8 +4,8 @@ import java.util.ArrayList;
 public class Trem {
     private int idtrem;
     private int proxLivre;
-    private ArrayList<GaragemLocomotiva>garagemlocomotiva;// Declaração do atributo para armazenar garagemlocomotivas como uma lista de objetos Locomotiva
-    private ArrayList<GaragemVagoes>garagemvagoes;// Declaração do atributo para armazenar garagemvagões como uma lista de objetos vagões.
+    private ArrayList<GaragemLocomotiva>garagemlocomotiva;
+    private ArrayList<GaragemVagoes>garagemvagoes;
     
 
      public Trem(int idtrem, int proxLivre,
@@ -27,3 +27,4 @@ public class Trem {
     }
 }
       
+
